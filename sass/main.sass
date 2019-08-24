@@ -1,0 +1,110 @@
+@charset "UTF-8"
+
+@blue-color : #007bff
+
+@green-title : #22A39F
+
+@gray-title :#727878
+
+@font-face
+   font-family: my-fristfont
+   src: url(font/CabinSketch-Bold.ttf)
+
+
+/*Dog-title*/
+
+.Dogtitle
+  background-image: url("image/Dogtitle.png")
+  height: 480px
+  background-size: cover
+  position: fixed
+
+.my-fade
+  opacity: .3
+  left: 400px
+  -webkit-transition: all 3s linear
+  -o-transition: all 3s linear
+  transition: all 3s linear
+  &.in
+    opacity: 1
+    left: 0px
+
+.Dogtitle
+  position: relative
+  h1
+    color: white
+    text-align: center
+
+h2
+  color: white
+  text-align: center
+
+.Dogtitle .content
+  position: absolute
+  top: 50%
+  left: 46%
+  -webkit-transform: translateY(-50%)
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+#header
+  padding-top: 20px
+
+#logo
+  display: inline-block
+
+ul.nav.nav-pills.pull-right.text-uppercase.header-nav
+  list-style: none
+
+li.my-nav
+  padding-left: 60px
+
+nav.pull-right.header-nav
+  float: right
+
+.header-nav
+  line-height: 134px
+
+p
+  &.english-font
+    font-family: 'Fredericka the Great', cursive
+  &.tw
+    font-family: 'Noto Sans TC', sans-serif
+
+a.tw, h1, h2, h4, h5, h6, a, p.tw
+  font-family: 'Noto Sans TC', sans-serif
+
+.dropbtn
+  font-family: 'Noto Sans TC', sans-serif
+  color: #007bff
+
+/*h1, h4.green-title{
+ *color: #22A39F;}*/
+
+h4, .gray-title
+  color: #727878
+
+h1, .green-title
+  color: #22A39F
+
+nav.hove-bor
+  position: absolute
+  z-index: 1
+  top: -80px
+  opacity: .3
+  -webkit-transition: all 0.2s linear
+  -o-transition: all 0.2s linear
+  transition: all 0.2s linear
+  display: none
+
+li.dropdown
+  &:hover nav.hove-bor
+    display: block
+    top: 80px
+    opacity: 1
+  &:visited nav.hove-bor
+    display: none
+    top: -80px
+    opacity: .3
+
+/*#header*/
