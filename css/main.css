@@ -118,6 +118,9 @@ a.tw, h1, h2, h4, h5, h6, a, p.tw {
  *color: #22A39F;}*/
 h4, .gray-title {
   color: #727878; }
+  .gray-title{
+    color: #727878;
+  }
 
 h1, .green-title {
   color: #22A39F; }
@@ -157,3 +160,17 @@ i.right{
   color: #22A39F;
 }
 /*star-icon*/
+
+/*contact me*/
+a.contact{
+  color: #22A39F;
+  text-decoration: none;
+  font-size: 20px;
+}
+a.contact:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+/*contact me*/
