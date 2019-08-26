@@ -11,12 +11,13 @@ $(document).scroll(function(e) {
 		//$('.my-icon-down').stop().animate({opacity: 0});
 		//$('.my-icon-down').stop().animate({display:none});
 		$('.my-icon-down').addClass('down-now');
+		console.log($(this).scrollTop());
 
 	}
 	else{
 		$('.my-icon-down').removeClass('down-now');
 		//console.log($(this).scrollTop());
-		//console.log('Oh my');
+		console.log('removeNow');
 	}
 	});
 
