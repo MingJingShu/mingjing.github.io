@@ -18,7 +18,6 @@ $(document).scroll(function(e) {
 		//console.log($(this).scrollTop());
 		//console.log('Oh my');
 	}
-});
-
+	});
 
 });
