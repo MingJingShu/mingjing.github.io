@@ -1,12 +1,30 @@
 # mydogtitle.github.io
- <h1>自我介紹</h1>
+ <h1>許明敬(Ming-Jing Shu)</h1>
  <ul>
   <li>Birthday : 1991/12/30</li>
   <li>Location : 台中市北屯區</li>
   <li>E-mail : a0911077842@gmail.com</li>
-  <li>Mobile : 0923332817</li>
+  <li>Mobile : 0976-581-711</li>
  </ul>
  個人網站頁面
  連結:https://mingjingshu.github.io/mingjing.github.io/#Dogtitle
+ </br>
+ <h1>技能</h1>
+ <h4>HTML/CSS</h4>
+ <ul>
+  <li>看懂Html的語意</li>
+  <li>能使用Less/Scss預處理器做編成</li>
+  <li>CSS動畫效果撰寫</li>
+  <li>套用Bootstrap4做排版與Rwd響應式設計</li>
+ </ul>
+ 
+ <h4>Javascript</h4>
+  <ul>
+  <li>有基礎的Javascript應用了解，能使用jquery做開發練習</li>
+  <li>jquery能套入動畫效果撰寫與網頁資料撰寫</li>
+  <li>能使用Ajax做Call資料並排版到網頁上<a href="https://codepen.io/TTisDog/pen/ExYvbOm" target="_blank" title="亂數使用者">亂數使用者test</a></li>
+  <li>套用Bootstrap4做排版與Rwd響應式設計</li>
+ </ul>
+ 
  
  
