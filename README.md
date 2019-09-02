@@ -22,8 +22,13 @@
   <ul>
   <li>有基礎的Javascript應用了解，能使用jquery做開發練習</li>
   <li>jquery能套入動畫效果撰寫與網頁資料撰寫</li>
-  <li>能使用Ajax做Call資料並排版到網頁上<a href="https://codepen.io/TTisDog/pen/ExYvbOm" target="_blank" title="亂數使用者">亂數使用者test</a></li>
-  <li>套用Bootstrap4做排版與Rwd響應式設計</li>
+  <li>能使用Ajax做Call資料並排版到網頁上<a href="https://codepen.io/TTisDog/pen/ExYvbOm" target="_blank" title="亂數使用者">亂數使用者test</a>   </li>
+ </ul>
+ 
+ <h4>Git/GitHub</h4>
+  <ul>
+  <li>能用 GitHub Pages 建立一個靜態網頁。</li>
+  <li>對Git版本控制有基礎的了解</li>
  </ul>
  
  
