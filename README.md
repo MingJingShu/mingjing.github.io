@@ -23,7 +23,7 @@
   <li>有基礎的Javascript應用了解，能使用jquery做開發練習</li>
   <li>jquery能套入動畫效果撰寫與網頁資料撰寫</li>
   <li>能使用Ajax做Call資料並排版到網頁上<a href="https://codepen.io/TTisDog/pen/ExYvbOm" target="_blank" title="亂數使用者">亂數使用者test</a>   </li>
- <li>jquery製作簡易表單<a href="https://codepen.io/TTisDog/pen/ExYvbOm" target="_blank" title="ToDoList">簡易製作表單ToDoList</a></li>
+ <li>jquery製作簡易表單<a href="https://codepen.io/TTisDog/pen/LwQaNO" target="_blank" title="ToDoList">簡易製作表單ToDoList</a></li>
  </ul>
  
  <h4>Git/GitHub</h4>
