@@ -1,120 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>My_Web</title>
-	<link rel="icon" type ="image/png" sizes = "32x32" href="image/logo.png">
-	<link rel="stylesheet" href="css/main.css">
-	
+	<!-- <link rel="icon" type ="image/png" sizes = "32x32" href="image/logo.png"> -->
+
+
 	<!--GoogleFonts-->
-	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Noto+Sans+TC&display=swap" rel="stylesheet">
-	
-	
-	<!--fontello_font-->
-	<link rel="stylesheet" href="css/fontello.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Noto+Sans+TC&display=swap"
+		rel="stylesheet">
+
+
+	<!--css-->
+	<link rel="stylesheet" href="css/fontello.css" />
+	<link rel="stylesheet" href="css/main.css">
 
 	<!--bootstrap4.3.1-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+
 	<!--jquery-->
 	<script src="js/jquery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<body data-spy ="scroll" data-target = "#my-list">
-	
-	<section class="position-fixed my-icon-down">
-		<div class="container">
-			<div class="row">
-					<ul class="list-unstyled col-sm-12">
-						<li class="nav-item">
-							<h5><a class="tw nav-link" href="#"><i class="icon-down-open"></i></a></h5>
-						</li>
-					</ul>
-			</div>
-		</div>
-	</section><!--icon-down-->
-<section class="position-fixed list-set">
-	<div class="container">
-		<div class="row">
-			
-			<div id="my-list" class="nav nav-pills list-group col-sm-12">
-				
-					<li class="nav-item">
-						<h5><a class="tw nav-link" href="#Dogtitle">開頭</a></h5>
-					</li>
-					<li>
-						<h5><a class="tw nav-link" href="#header">個資</a></h5>
-					</li>
-					<li>
-						<h5><a class="tw nav-link" href="#Experiences">經歷</a></h5>
-					</li>
-					<li>
-						<h5><a class="tw nav-link" href="#Abilities">能力</a></h5>
-					</li>
-				</ul>
-			</div>
-			
-		</div>
-	</div>
-</section>
 
-<section>
-		<div id ="Dogtitle" class="Dogtitle col-sm-12 my-fade">
+<body data-spy="scroll" data-target="#my-list">
+	<ul id = 'my-list' class="my-list nav nav-pills list-group">	
+		<li class="nav-item">
+			<h5><a class="tw nav-link" href="#Dogtitle">開頭</a></h5>
+		</li>
+		<li>
+			<h5><a class="tw nav-link active" href="#header">個資</a></h5>
+		</li>
+		<li>
+			<h5><a class="tw nav-link" href="#Experiences">經歷</a></h5>
+		</li>
+		<li>
+			<h5><a class="tw nav-link" href="#Abilities">能力</a></h5>
+		</li>
+	</ul>
+	<section>
+		<div id="Dogtitle" class="Dogtitle col-sm-12 my-fade">
 			<div class="content">
-			<h1 class="tw">許明敬</h1>
-			<hr>
-			<h2 class="tw">初出茅廬</h2>
-		</div>
-</section>
-<section>
-	<!--Dogtitle-->
-	<div id = "header" class="clearfix scrollspy-example">
-		<div class="container clearfix ">
-			<div class="row">
-				<div class="text-center col align-self-center">
-					<h1 class="green-title h1 tw">個人資料</h1>
-					
-					<h4 class="gray-title h4 tw">如果你失去某物就無能，</h4>
-					<h4 class="gray-title h4 tw">那你更不應該去擁有它。</h4>
-					<hr class="br">
+				<h1 class="tw">許明敬</h1>
+				<hr>
+				<h2 class="tw">初出茅廬</h2>
+			</div>
+	</section>
+	<section>
+		<!--Dogtitle-->
+		<div id="header" class="clearfix scrollspy-example">
+			<div class="container clearfix ">
+				<div class="row">
+					<div class="text-center col align-self-center">
+						<h1 class="green-title h1 tw">個人資料</h1>
+
+						<h4 class="gray-title h4 tw">如果你失去某物就無能，</h4>
+						<h4 class="gray-title h4 tw">那你更不應該去擁有它。</h4>
+						<hr class="br">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<h4 class="green-title title tw">關於我...</h4>
+						<p class="tw">來自屏東縣萬丹鄉鄉下長大的孩子，對於各種事物充滿好奇心，喜歡自己去埋首研究東西，目前的興趣是健身與電影觀賞，喜歡學得越多自己的質量逐漸改變的感覺。</p>
+					</div>
+					<div id="logo" class="text-center col-sm-4">
+						<a href="#">
+							<img class="rounded-circle" src="css/image/logo.jpg" alt="logo">
+						</a>
+					</div>
+					<div class="col-sm-4">
+						<h4 class="green-title title tw">詳細資訊</h4>
+						<h5 class="subtitle tw">名字:</h5>
+						<p class="tw">許明敬</p>
+						<h5 class="subtitle tw">年齡:</h5>
+						<p>27 years</p>
+						<h5 class="subtitle tw">現居地:</h5>
+						<p class="tw">台灣台中</p>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<h4 class="green-title title tw">關於我...</h4>
-					<p class="tw">來自屏東縣萬丹鄉鄉下長大的孩子，對於各種事物充滿好奇心，喜歡自己去埋首研究東西，目前的興趣是健身與電影觀賞，喜歡學得越多自己的質量逐漸改變的感覺。</p>
-				</div>
-				<div id="logo" class="text-center col-sm-4">
-					<a href="#">
-						<img class="rounded-circle Dogtitle-circle-set" src="css/image/logo.jpg" alt="logo">
-					</a>
-				</div>
-				<div class="col-sm-4">
-					<h4 class="green-title title tw">詳細資訊</h4>
-					<h5 class="subtitle tw">名字:</h5>
-					<p class="tw" >許明敬</p>
-					<h5 class="subtitle tw">年齡:</h5>
-					<p>27 years</p>
-					<h5 class="subtitle tw">現居地:</h5>
-					<p class="tw">台灣台中</p>
-				</div>
-			</div>	
-		</div><!--container-->
-	</div><!--#header-->
-	<!--Dogtitle-->
-</section>
-	
+			<!--container-->
+		</div>
+		<!--#header-->
+		<!--Dogtitle-->
+	</section>
+
 
 	<section class="special-bg-color about-set">
-		<div data-spy ="scroll" data-target = "#my-list" data-offset ="0" id ="Experiences" class="container" >
+		<div data-spy="scroll" data-target="#my-list" data-offset="0" id="Experiences" class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
 					<h1 class="h1">求學經歷</h1>
-					
+
 					<h4 class="h4 tw">人生猶如我的星座魔羯，千變萬化！</h4>
 					<hr class="br">
 				</div>
@@ -131,10 +121,11 @@
 				<div class="col-sm-9">
 					<h6 class="tw">與遊戲開發接觸的日子</h6>
 					<p class="tw gray-title">上了大學就讀-動畫與遊戲設計系，一邊做餐廚助手的打工，學校在遊戲製作的教程有分開
-											大一大二時是3DMax、Maya與特效美術設計後面則還有腳本跟企劃的選修，大三大四則加開了資訊管理與
-											遊戲開發的相關課程，遊戲設計也從家機電腦轉戰到移動設備的領域，大四畢業展有製作一款三消方塊遊戲RainBridge跟類塔防遊戲落跑學員，之後畢業就去搭國軍一年兵役最後的末班車XD。</p>
+						大一大二時是3DMax、Maya與特效美術設計後面則還有腳本跟企劃的選修，大三大四則加開了資訊管理與
+						遊戲開發的相關課程，遊戲設計也從家機電腦轉戰到移動設備的領域，大四畢業展有製作一款三消方塊遊戲RainBridge跟類塔防遊戲落跑學員，之後畢業就去搭國軍一年兵役最後的末班車XD。</p>
 				</div>
-			</div><!--row-->
+			</div>
+			<!--row-->
 			<div class="row">
 				<h4 class="col-sm-3">高職</h4>
 				<div class="col-sm-9"></div>
@@ -147,11 +138,12 @@
 				<div class="col-sm-9">
 					<h6 class="tw">忍者轉職的日子</h6>
 					<p class="tw gray-title">從忍者學校畢業後，選擇了高職就讀，最直接的與職場接軌也開始多方嘗試，親戚朋友也有從務農轉職去機械加工領域
-					；好學的我放假時段打工壓克力加工、機械鑽床與鋸台，休閒時做些Youtube影片剪輯與C#軟體嘗試，當時對遊戲外掛很有興趣，
-					引起了我大學時想往遊戲產業發展的願景。
+						；好學的我放假時段打工壓克力加工、機械鑽床與鋸台，休閒時做些Youtube影片剪輯與C#軟體嘗試，當時對遊戲外掛很有興趣，
+						引起了我大學時想往遊戲產業發展的願景。
 					</p>
 				</div>
-			</div><!--row-->
+			</div>
+			<!--row-->
 			<div class="row">
 				<h4 class="col-sm-3">國中</h4>
 				<div class="col-sm-9"></div>
@@ -164,19 +156,22 @@
 				<div class="col-sm-9">
 					<h6 class="tw">一個80公斤肥佬變成60公斤小子的故事</h6>
 					<p class="tw gray-title">國中時代...讓人聯想到了青春期與情竇初開亦或者中二病的年華，像是一把雙面刃，用在錯誤的地方會傷害
-					到自己，顯然的我是兩者全收XD，當時"火影忍者"正夯，每天的我進行忍者特訓(跑步與跳躍力訓練)，只為了讓我的小櫻對我回眸一笑，無意中練成了長跑技能，體重也不經意的減輕，對事情也有毅力跟堅持，取而代之的是心目中的那個小櫻卻離我遠去Q_Q 。</p>
+						到自己，顯然的我是兩者全收XD，當時"火影忍者"正夯，每天的我進行忍者特訓(跑步與跳躍力訓練)，只為了讓我的小櫻對我回眸一笑，無意中練成了長跑技能，體重也不經意的減輕，對事情也有毅力跟堅持，取而代之的是心目中的那個小櫻卻離我遠去Q_Q
+						。</p>
 				</div>
-			</div><!--row-->
+			</div>
+			<!--row-->
 		</div>
 	</section>
-	
+
 	<section class="about-set">
-		<div data-spy ="scroll" data-target = "#my-list" data-offset ="0" id="Abilities" class="container">
+		<div data-spy="scroll" data-target="#my-list" data-offset="0" id="Abilities" class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
 					<h1 class="h1">能力</h1>
-					
-					<h4 class="h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum soluta, impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!</h4>
+
+					<h4 class="h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum soluta,
+						impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!</h4>
 					<hr class="br">
 				</div>
 			</div>
@@ -189,90 +184,91 @@
 			<div class="list-group">
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#"	class="border-0 list-group-item list-group-item-action">Html
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">Html
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">Css
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">Css
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">Unity
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">Unity
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">Bootstrap
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">Bootstrap
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">Jqrey
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">Jqrey
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#"	class="border-0 list-group-item list-group-item-action">C#
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty "></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">C#
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty "></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">Photoshop
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">Photoshop
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">RWD
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">RWD
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">GitHub
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">GitHub
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="border-0 list-group-item list-group-item-action">SCSS/SASS
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>	
+						<a href="#" class="border-0 list-group-item list-group-item-action">SCSS/SASS
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae, maxime id maiores repellat, veritatis?</p>
-					<a class="btn btn-outline-success" href="#" role="button">Link</a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae, maxime id maiores
+							repellat, veritatis?</p>
+						<a class="btn btn-outline-success" href="#" role="button">Link</a>
 					</div>
-					
+
 				</div>
 				<hr>
 			</div>
-			
+
 			<div class="row">
 				<div class="col-sm-3">
 					<h4 class="title">語言</h4>
@@ -282,35 +278,35 @@
 			<div class="list-group">
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">國語(繁體中文)
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">國語(繁體中文)
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">台語
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">台語
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">English
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">English
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">日語
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">日語
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
 					</div>
 				</div>
@@ -325,81 +321,87 @@
 			<div class="list-group">
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">Windows(10年+)
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">Windows(10年+)
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">Sublime Text(6個月)
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">Sublime Text(6個月)
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#"	class="tw border-0 list-group-item list-group-item-action">Unity(8個月)
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star"></i>
-								<i class="right icon-star-empty"></i>
-								<i class="right icon-star-empty"></i>
-						</a>						
+						<a href="#" class="tw border-0 list-group-item list-group-item-action">Unity(8個月)
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star"></i>
+							<i class="right icon-star-empty"></i>
+							<i class="right icon-star-empty"></i>
+						</a>
 					</div>
 				</div>
 				<hr>
 			</div>
-		</div><!--container-->
+		</div>
+		<!--container-->
 	</section>
-	
+
 	<section class="about-set special-bg-color">
 		<div class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
 					<h1 class="h1">專案</h1>
-					
-					<h4 class="h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum soluta, impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!</h4>
+
+					<h4 class="h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum soluta,
+						impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!</h4>
 					<hr class="br">
 				</div>
-			</div><!--h1title-->
+			</div>
+			<!--h1title-->
 			<div class="row">
 				<div class="col-sm-6 text-center"><img src="image/logo.png" alt=""></div>
-				<div class="col-sm-6 text-center" ><img src="image/logo.png" alt=""></div>
+				<div class="col-sm-6 text-center"><img src="image/logo.png" alt=""></div>
 			</div>
-		<hr>
-		</div><!--container-->
+			<hr>
+		</div>
+		<!--container-->
 
 	</section>
-	
+
 	<section class="about-set special-bg-color-dark">
 		<div id="footer">
 			<div class="container">
 				<div class="row text-center">
 					<h1 class="h1 col-sm-12" style="color: white;">聯絡我</h1>
-					
-					<h4 class="h4 col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum soluta, impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!</h4>
+
+					<h4 class="h4 col-sm-12">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur
+						harum soluta, impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!
+					</h4>
 					<hr class="br col-sm-12">
-					
-							<div class="col-sm-6">
-								<a href="https://www.instagram.com/mingjingg8/?hl=zh-tw" class="contact" target="_blank">
-									<i class="icon-instagram"></i>Instagram
-								</a>
-							</div>
-							<div class="col-sm-6">
-								<a href="https://www.facebook.com/MingJingG" class="contact" target="_blank">
-									<i class="icon-facebook"></i>Facebook
-								</a>
-							</div>
+
+					<div class="col-sm-6">
+						<a href="https://www.instagram.com/mingjingg8/?hl=zh-tw" class="contact" target="_blank">
+							<i class="icon-instagram"></i>Instagram
+						</a>
+					</div>
+					<div class="col-sm-6">
+						<a href="https://www.facebook.com/MingJingG" class="contact" target="_blank">
+							<i class="icon-facebook"></i>Facebook
+						</a>
+					</div>
 					<hr class="br col-sm-12">
-			</div><!--row-->
-			</div><!--container-->
+				</div>
+				<!--row-->
+			</div>
+			<!--container-->
 		</div>
 	</section>
-
-
-<script src="js/all.js"></script>
 </body>
+
 </html>

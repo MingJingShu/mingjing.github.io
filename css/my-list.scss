@@ -1,0 +1,37 @@
+.my-list{
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+// .my-icon-down{
+//     right: 0px;
+//     bottom: 170px;
+//     z-index: 2;
+//     width: 10vw;
+//     opacity: 1;
+//     display: block;
+//     /*transition*/
+//     -webkit-transition: all 0.4s linear;
+//     -o-transition: all 0.4s linear;
+//     transition: all 0.4s linear;
+//     /*animation*/
+//     animation-name:down-ani;
+//     animation-iteration-count:infinite;
+//     animation-duration:1s;
+//     animation-direction:alternate-reverse;
+//   }
+//   @keyframes down-ani{
+//     form{
+//       bottom:180px;
+//     }
+//     to{
+//       bottom: 160px;
+//     }
+//   }
+//   .my-icon-down.down-now {
+//     opacity: 0;
+    
+//   }
