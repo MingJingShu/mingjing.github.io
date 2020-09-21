@@ -1,8 +1,38 @@
-.my-list{
+.my-list.my-list{
     display: inline-block;
     position: fixed;
     bottom: 0;
     right: 0;
+    background-color: #727878;
+    width: 8vw;
+    z-index: 1;
+    .arrow{
+        position: absolute;
+        top: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: all .2s ease-in-out;
+        color: #007bff;
+        &.arrow-ani{
+            opacity: 1;
+            animation: arrow-ani 1s linear infinite alternate;
+        }
+    }
+    li{
+        h5 a{
+            color: #fff;
+            &.active.active.active.active{
+                background-color: gray;
+            }
+        }
+    }
+}
+@keyframes arrow-ani{
+    0%{transform: translate(-50% , -10%);}
+    25%{transform: translate(-50% , 10%);}
+    50%{transform: translate(-50% , -10%);}
+    100%{transform: translate(-50% ,10%);}
 }
 
 

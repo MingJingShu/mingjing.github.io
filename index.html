@@ -36,7 +36,8 @@
 </head>
 
 <body data-spy="scroll" data-target="#my-list">
-	<ul id = 'my-list' class="my-list nav nav-pills list-group">	
+	<ul id='my-list' class="my-list nav nav-pills list-group">
+		<li class="arrow"><i class="icon-down-open"></i></li>
 		<li class="nav-item">
 			<h5><a class="tw nav-link" href="#Dogtitle">開頭</a></h5>
 		</li>
@@ -50,57 +51,52 @@
 			<h5><a class="tw nav-link" href="#Abilities">能力</a></h5>
 		</li>
 	</ul>
-	<section>
-		<div id="Dogtitle" class="Dogtitle col-sm-12 my-fade">
+	<!--開頭-->
+	<section id="Dogtitle">
+		<div  class="Dogtitle col-sm-12 my-fade">
 			<div class="content">
 				<h1 class="tw">許明敬</h1>
 				<hr>
 				<h2 class="tw">初出茅廬</h2>
 			</div>
 	</section>
-	<section>
-		<!--Dogtitle-->
-		<div id="header" class="clearfix scrollspy-example">
-			<div class="container clearfix ">
-				<div class="row">
-					<div class="text-center col align-self-center">
-						<h1 class="green-title h1 tw">個人資料</h1>
+	<!--avater-->
+	<div id="header" class="clearfix scrollspy-example">
+		<div class="container clearfix ">
+			<div class="row">
+				<div class="text-center col align-self-center">
+					<h1 class="green-title h1 tw">個人資料</h1>
 
-						<h4 class="gray-title h4 tw">如果你失去某物就無能，</h4>
-						<h4 class="gray-title h4 tw">那你更不應該去擁有它。</h4>
-						<hr class="br">
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4">
-						<h4 class="green-title title tw">關於我...</h4>
-						<p class="tw">來自屏東縣萬丹鄉鄉下長大的孩子，對於各種事物充滿好奇心，喜歡自己去埋首研究東西，目前的興趣是健身與電影觀賞，喜歡學得越多自己的質量逐漸改變的感覺。</p>
-					</div>
-					<div id="logo" class="text-center col-sm-4">
-						<a href="#">
-							<img class="rounded-circle" src="css/image/logo.jpg" alt="logo">
-						</a>
-					</div>
-					<div class="col-sm-4">
-						<h4 class="green-title title tw">詳細資訊</h4>
-						<h5 class="subtitle tw">名字:</h5>
-						<p class="tw">許明敬</p>
-						<h5 class="subtitle tw">年齡:</h5>
-						<p>27 years</p>
-						<h5 class="subtitle tw">現居地:</h5>
-						<p class="tw">台灣台中</p>
-					</div>
+					<h4 class="gray-title h4 tw">如果你失去某物就無能，</h4>
+					<h4 class="gray-title h4 tw">那你更不應該去擁有它。</h4>
+					<hr class="br">
 				</div>
 			</div>
-			<!--container-->
+			<div class="row">
+				<div class="col-sm-4">
+					<h4 class="green-title title tw">關於我...</h4>
+					<p class="tw">來自屏東縣萬丹鄉鄉下長大的孩子，對於各種事物充滿好奇心，喜歡自己去埋首研究東西，目前的興趣是健身與電影觀賞，喜歡學得越多自己的質量逐漸改變的感覺。</p>
+				</div>
+				<div id="avater" class="text-center col-sm-4">
+					<a href="#">
+						<img class="rounded-circle avater" src="css/image/logo.jpg" alt="logo">
+					</a>
+				</div>
+				<div class="col-sm-4">
+					<h4 class="green-title title tw">詳細資訊</h4>
+					<h5 class="subtitle tw">名字:</h5>
+					<p class="tw">許明敬</p>
+					<h5 class="subtitle tw">年齡:</h5>
+					<p>27 years</p>
+					<h5 class="subtitle tw">現居地:</h5>
+					<p class="tw">台灣台中</p>
+				</div>
+			</div>
 		</div>
-		<!--#header-->
-		<!--Dogtitle-->
-	</section>
-
-
-	<section class="special-bg-color about-set">
-		<div data-spy="scroll" data-target="#my-list" data-offset="0" id="Experiences" class="container">
+		<!--container-->
+	</div>
+	<section id="Experiences" class="basic-padding bg-yellow">
+		<div data-spy="scroll" data-target="#my-list" data-offset="0" class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
 					<h1 class="h1">求學經歷</h1>
@@ -163,9 +159,8 @@
 			<!--row-->
 		</div>
 	</section>
-
-	<section class="about-set">
-		<div data-spy="scroll" data-target="#my-list" data-offset="0" id="Abilities" class="container">
+	<section id="Abilities" class="abilities basic-padding" data-spy="scroll" data-target="#my-list"  data-offset="0" class="basic-padding">
+		<div class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
 					<h1 class="h1">能力</h1>
@@ -184,35 +179,35 @@
 			<div class="list-group">
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#" class="border-0 list-group-item list-group-item-action">Html
+						<a class="border-0 list-group-item list-group-item-action">Html
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">Css
+						<a class="border-0 list-group-item list-group-item-action">Css
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">Unity
+						<a class="border-0 list-group-item list-group-item-action">Unity
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">Bootstrap
+						<a class="border-0 list-group-item list-group-item-action">Bootstrap
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">Jqrey
+						<a class="border-0 list-group-item list-group-item-action">Jqrey
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
@@ -221,35 +216,35 @@
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" class="border-0 list-group-item list-group-item-action">C#
+						<a class="border-0 list-group-item list-group-item-action">C#
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty "></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">Photoshop
+						<a class="border-0 list-group-item list-group-item-action">Photoshop
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">RWD
+						<a class="border-0 list-group-item list-group-item-action">RWD
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">GitHub
+						<a class="border-0 list-group-item list-group-item-action">GitHub
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="border-0 list-group-item list-group-item-action">SCSS/SASS
+						<a class="border-0 list-group-item list-group-item-action">SCSS/SASS
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
@@ -258,14 +253,13 @@
 						</a>
 					</div>
 				</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-sm-12 text-center">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod repudiandae, maxime id maiores
 							repellat, veritatis?</p>
 						<a class="btn btn-outline-success" href="#" role="button">Link</a>
 					</div>
-
-				</div>
+				</div> -->
 				<hr>
 			</div>
 
@@ -278,14 +272,14 @@
 			<div class="list-group">
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">國語(繁體中文)
+						<a class="tw border-0 list-group-item list-group-item-action">國語(繁體中文)
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">台語
+						<a class="tw border-0 list-group-item list-group-item-action">台語
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
@@ -294,14 +288,14 @@
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">English
+						<a class="tw border-0 list-group-item list-group-item-action">English
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">日語
+						<a class="tw border-0 list-group-item list-group-item-action">日語
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 							<i class="right icon-star-empty"></i>
@@ -321,14 +315,14 @@
 			<div class="list-group">
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">Windows(10年+)
+						<a class="tw border-0 list-group-item list-group-item-action">Windows(10年+)
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star-empty"></i>
 						</a>
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">Sublime Text(6個月)
+						<a class="tw border-0 list-group-item list-group-item-action">Sublime Text(6個月)
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
@@ -337,7 +331,7 @@
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#" class="tw border-0 list-group-item list-group-item-action">Unity(8個月)
+						<a class="tw border-0 list-group-item list-group-item-action">Unity(8個月)
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
 							<i class="right icon-star"></i>
@@ -351,8 +345,7 @@
 		</div>
 		<!--container-->
 	</section>
-
-	<section class="about-set special-bg-color">
+	<section class="project basic-padding bg-yellow">
 		<div class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
@@ -374,7 +367,7 @@
 
 	</section>
 
-	<section class="about-set special-bg-color-dark">
+	<section class="footer basic-padding bg-black">
 		<div id="footer">
 			<div class="container">
 				<div class="row text-center">

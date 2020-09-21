@@ -6,21 +6,14 @@ $('.Dogtitle').stop().addClass('in');
 $(document).scroll(function(e) {
 	
 	if($(this).stop().scrollTop() > 20){
-	
-		$('.my-icon-down').addClass('down-now');
-		//console.log($(this).scrollTop());
-
+		$('.arrow').removeClass('arrow-ani');
 	}
 	else{
-		$('.my-icon-down').removeClass('down-now');
-		
-		//console.log('removeNow');
+		$('.arrow').addClass('arrow-ani');
 	}
 	});
 /*********************/
-/*list where are u going* */
-// $(this).click(function(){
-// 	$('html,body').animate({scrollTop:$(this).offest().top},500);
-// })
+/*list where are u going*/
+
 /*********************/
 });
