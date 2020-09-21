@@ -84,8 +84,16 @@ ul.nav.nav-pills.pull-right.text-uppercase.header-nav {
       animation: arrow-ani 1s linear infinite alternate; }
   .my-list.my-list li h5 a {
     color: #fff; }
+    .my-list.my-list li h5 a:hover {
+      color: #000;
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
     .my-list.my-list li h5 a.active.active.active.active {
-      background-color: gray; }
+      background-color: gray;
+      -webkit-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out; }
 
 @-webkit-keyframes arrow-ani {
   0% {
@@ -123,10 +131,63 @@ ul.nav.nav-pills.pull-right.text-uppercase.header-nav {
     text-decoration: none;
     color: #fff; }
 
-.abilities i {
-  float: right;
-  color: #22A39F;
+.abilities a {
+  position: relative;
   cursor: pointer; }
+  .abilities a:hover .abilities-hidden {
+    opacity: 1;
+    pointer-events: all;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .abilities a .abilities-hidden {
+    position: absolute;
+    left: 50%;
+    top: calc(-100% - 5rem);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 100%;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1rem;
+    z-index: 2;
+    pointer-events: none;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .abilities a .abilities-hidden.active {
+      opacity: 1;
+      pointer-events: all;
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+    .abilities a .abilities-hidden:before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      bottom: -1rem;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 1rem 0.5rem 0 0.5rem;
+      border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent; }
+    .abilities a .abilities-hidden h1 {
+      font-size: 1.25rem;
+      color: #fff;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 0.5rem; }
+    .abilities a .abilities-hidden p {
+      margin: 0; }
+  .abilities a i {
+    float: right;
+    color: #22a39f;
+    cursor: pointer; }
 
 .Dogtitle {
   position: relative;

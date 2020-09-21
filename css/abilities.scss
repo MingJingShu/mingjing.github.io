@@ -1,7 +1,59 @@
-.abilities{
-    i{
-        float: right;
-        color: #22A39F;
-        cursor: pointer;
+.abilities {
+  a {
+    position: relative;
+    cursor: pointer;
+    &:hover{
+        .abilities-hidden{
+        opacity: 1;
+        pointer-events: all;
+        transition: all 0.3s ease-in-out;
+        }
     }
+    .abilities-hidden {
+      position: absolute;
+      left: 50%;
+      top: calc(-100% - 5rem);
+      transform: translateX(-50%);
+      width: 100%;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 1rem;
+      z-index: 2;
+      pointer-events: none;
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      &.active {
+        opacity: 1;
+        pointer-events: all;
+        transition: all 0.3s ease-in-out;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -1rem;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 1rem 0.5rem 0 0.5rem;
+        border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+      }
+      h1 {
+        font-size: 1.25rem;
+        color: #fff;
+        border-bottom: 1px solid #fff;
+        padding-bottom: 0.5rem;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    i {
+      float: right;
+      color: #22a39f;
+      cursor: pointer;
+    }
+  }
 }
