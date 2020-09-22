@@ -3,9 +3,10 @@
 
 <head>
 	<meta charset="UTF-8">
+	<!--RWD-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My_Web</title>
 	<!-- <link rel="icon" type ="image/png" sizes = "32x32" href="image/logo.png"> -->
-
 
 	<!--GoogleFonts-->
 	<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Noto+Sans+TC&display=swap"
@@ -49,6 +50,12 @@
 		</li>
 		<li>
 			<h5><a class="tw nav-link" href="#Abilities">能力</a></h5>
+		</li>
+		<li>
+			<h5><a class="tw nav-link" href="#Project">作品</a></h5>
+		</li>
+		<li>
+			<h5><a class="tw nav-link" href="#Footer">聯絡我</a></h5>
 		</li>
 	</ul>
 	<!--開頭-->
@@ -411,11 +418,11 @@
 		</div>
 		<!--container-->
 	</section>
-	<section class="project basic-padding bg-yellow">
+	<section id ="Project" class="project basic-padding bg-yellow">
 		<div class="container">
 			<div class="row text-center">
 				<div class="text-center col align-self-center">
-					<h1 class="h1">專案</h1>
+					<h1 class="h1">其他作品</h1>
 
 					<h4 class="h4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur harum soluta,
 						impedit? Voluptates, voluptatum, unde! Voluptatibus iusto esse, cum explicabo!</h4>
@@ -423,9 +430,29 @@
 				</div>
 			</div>
 			<!--h1title-->
-			<div class="row">
-				<div class="col-sm-6 text-center"><img src="image/logo.png" alt=""></div>
-				<div class="col-sm-6 text-center"><img src="image/logo.png" alt=""></div>
+			<div class="row project-item">
+				<div class="col-sm-3 text-center">
+					<a href="https://mingjingshu.github.io/ns_company/" class="contact" target="_blank">
+						<img src="image/projects/ns.png" alt="融新科技">
+					</a>
+					<h1>融新科技</h1>
+					<p>只有手機版</p>
+				</div>
+				<div class="col-sm-3 text-center">
+					<img src="image/projects/ns.png" alt="融新科技">
+					<p>只有手機版</p>
+				</div>
+				<div class="col-sm-3 text-center">
+				<a href="https://mingjingshu.github.io/hamburger/" class="contact" target="_blank">
+					<img src="image/projects/hamburger.png" alt="傻子漢堡">
+				</a>
+					<h1>傻子漢堡</h1>
+					<p>手機版與網頁版</p>
+				</div>
+				<div class="col-sm-3 text-center">
+					<img src="image/projects/hamburger.png" alt="傻子漢堡">
+					<p>手機版與網頁版</p>
+				</div>
 			</div>
 			<hr>
 		</div>
@@ -433,7 +460,7 @@
 
 	</section>
 
-	<section class="footer basic-padding bg-black">
+	<section id = "Footer" class="footer basic-padding bg-black">
 		<div id="footer">
 			<div class="container">
 				<div class="row text-center">

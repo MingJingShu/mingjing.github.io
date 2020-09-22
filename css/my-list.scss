@@ -4,7 +4,7 @@
     bottom: 0;
     right: 0;
     background-color: #727878;
-    width: 8vw;
+    width: 6rem;
     z-index: 1;
     .arrow{
         position: absolute;
@@ -22,6 +22,7 @@
     li{
         h5 a{
             color: #fff;
+            text-align: center;
             &:hover{
                 color: #000;
                 transition: all .2s ease-in-out;
