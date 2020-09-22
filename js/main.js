@@ -13,7 +13,16 @@ $(document).scroll(function(e) {
 	}
 	});
 /*********************/
-/*list where are u going*/
 
+/*abilities-hidden*/
+
+/*list where are u going*/
+$('.my-list h5 > a').click(function(e){
+	e.preventDefault();
+	let id = $(this).attr("href");
+	let y = $(id).offset().top;
+	console.log(' y = '+y);
+	$('body,html').stop().animate({scrollTop:y}, 400,'linear');
+})
 /*********************/
 });

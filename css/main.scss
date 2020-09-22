@@ -10,7 +10,8 @@
 .Dogtitle {
   position: relative;
   background-image: url("image/Dogtitle.png");
-  height: 480px;
+  height: calc(100vw * .3);
+  min-height: 11.5rem;
   background-size: cover;
   position: fixed;
   .content{
@@ -22,9 +23,10 @@
 }
 .my-fade {
   opacity: 0.3;
-  transition: all 3s ease-in-out;
+ 
   &.in {
     opacity: 1;
+    transition: all 2s ease-in-out;
   }
 }
 //header**************

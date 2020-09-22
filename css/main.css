@@ -201,7 +201,8 @@ ul.nav.nav-pills.pull-right.text-uppercase.header-nav {
 .Dogtitle {
   position: relative;
   background-image: url("image/Dogtitle.png");
-  height: 480px;
+  height: calc(100vw * .3);
+  min-height: 11.5rem;
   background-size: cover;
   position: fixed; }
   .Dogtitle .content {
@@ -213,12 +214,12 @@ ul.nav.nav-pills.pull-right.text-uppercase.header-nav {
     transform: translate(-50%, -50%); }
 
 .my-fade {
-  opacity: 0.3;
-  -webkit-transition: all 3s ease-in-out;
-  -o-transition: all 3s ease-in-out;
-  transition: all 3s ease-in-out; }
+  opacity: 0.3; }
   .my-fade.in {
-    opacity: 1; }
+    opacity: 1;
+    -webkit-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out; }
 
 h2 {
   color: white;
