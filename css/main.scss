@@ -16,8 +16,8 @@
   .content{
     position: absolute;
     top: 50%;
-    left: 46%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
   }
 }
 .my-fade {
@@ -84,11 +84,6 @@ p {
     font-family: "Noto Sans TC", sans-serif;
   }
 }
-
-
-
-
-
 
 .nav.hove-bor {
   position: absolute;
