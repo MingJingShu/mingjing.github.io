@@ -12,6 +12,7 @@ $(document).scroll(function(e) {
 		$('.arrow').addClass('arrow-ani');
 	}
 	});
+
 /*********************/
 
 /*abilities-hidden*/
